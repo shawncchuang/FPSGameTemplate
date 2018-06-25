@@ -1,0 +1,12 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"/Users/shawnch/UE4Projects/FPSGame/.git": true,
+		"/Users/shawnch/UE4Projects/FPSGame/.vscode": true,
+		"/Users/shawnch/UE4Projects/FPSGame/Content": true,
+		"/Users/shawnch/UE4Projects/FPSGame/FPSGame.xcworkspace": true,
+		"/Users/shawnch/UE4Projects/FPSGame/Intermediate": true,
+		"/Users/shawnch/UE4Projects/FPSGame/Saved": true,
+		"/Users/shawnch/UE4Projects/FPSGame/cmake-build-debug": true
+	}
+}

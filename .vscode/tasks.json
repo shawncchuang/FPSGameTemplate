@@ -1,0 +1,635 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "FPSGame Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Debug",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Debug",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"DebugGame",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"DebugGame",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Development",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Development",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Shipping",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Shipping",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Test",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"Mac",
+				"Test",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Debug",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Debug",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"DebugGame",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"DebugGame",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Development",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Development",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Shipping",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Shipping",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Test",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"IOS",
+				"Test",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"Debug",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"Debug",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"DebugGame",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"DebugGame",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"Development",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"Development",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"Shipping",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"Shipping",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"Test",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGame HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGame",
+				"HTML5",
+				"Test",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGameEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Debug",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGameEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Debug",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGameEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGameEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGameEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Development",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "FPSGameEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSGameEditor",
+				"Mac",
+				"Development",
+				"/Users/shawnch/UE4Projects/FPSGame/FPSGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		}
+	]
+}
