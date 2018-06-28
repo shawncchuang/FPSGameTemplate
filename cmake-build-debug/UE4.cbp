@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\Intermediate\;CMake Files\Intermediate\ProjectFiles\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FakeTarget">
-				<Option output="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/FakeTarget" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option output="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/FakeTarget" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
@@ -1485,7 +1485,7 @@
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/InputDevice/Private"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Online/Voice/Private"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Online/BuildPatchServices/Private"/>
-					<Add directory="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Private"/>
+					<Add directory="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Private"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Engine"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Engine/Public/AI"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Engine/Public/AI/Navigation"/>
@@ -1706,9 +1706,9 @@
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/AudioMixer"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/AudioMixer/Public/Components"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/AudioMixer/Public/DSP"/>
-					<Add directory="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source"/>
-					<Add directory="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Public"/>
-					<Add directory="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame"/>
+					<Add directory="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source"/>
+					<Add directory="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Public"/>
+					<Add directory="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -1716,15 +1716,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FakeTarget"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FakeTarget"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FakeTarget/fast">
-				<Option output="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/FakeTarget" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option output="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/FakeTarget" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
@@ -3170,7 +3170,7 @@
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/InputDevice/Private"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Online/Voice/Private"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Online/BuildPatchServices/Private"/>
-					<Add directory="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Private"/>
+					<Add directory="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Private"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Engine"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Engine/Public/AI"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Engine/Public/AI/Navigation"/>
@@ -3391,9 +3391,9 @@
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/AudioMixer"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/AudioMixer/Public/Components"/>
 					<Add directory="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/AudioMixer/Public/DSP"/>
-					<Add directory="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source"/>
-					<Add directory="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Public"/>
-					<Add directory="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame"/>
+					<Add directory="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source"/>
+					<Add directory="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Public"/>
+					<Add directory="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -3401,310 +3401,310 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FakeTarget/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FakeTarget/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGameEditor-IOS">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-IOS"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-IOS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGameEditor">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGameEditor-TVOS-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-TVOS-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-TVOS-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGameEditor-TVOS-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-TVOS-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-TVOS-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGameEditor-IOS-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-IOS-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-IOS-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGameEditor-TVOS">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-TVOS"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-TVOS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGame-TVOS">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-TVOS"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-TVOS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Game-TVOS-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-TVOS-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-TVOS-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGameEditor-Mac-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-Mac-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-Mac-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGame-IOS-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-IOS-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-IOS-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGameEditor-IOS-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-IOS-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-IOS-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGame-TVOS-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-TVOS-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-TVOS-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGame-Mac-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-Mac-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-Mac-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGame-IOS">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-IOS"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-IOS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Game-IOS">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-IOS"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-IOS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGame-Mac-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-Mac-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-Mac-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Game-IOS-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-IOS-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-IOS-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Game-Mac-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-Mac-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-Mac-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Game">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Game-IOS-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-IOS-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-IOS-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Game-TVOS-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-TVOS-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-TVOS-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Editor-Mac-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Editor-Mac-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Editor-Mac-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGame-TVOS-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-TVOS-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-TVOS-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Editor">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Editor"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Editor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGame-IOS-DebugGame">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-IOS-DebugGame"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGame-IOS-DebugGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Editor-Mac-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Editor-Mac-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Editor-Mac-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Game-TVOS">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-TVOS"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-TVOS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPSGameEditor-Mac-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-Mac-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPSGameEditor-Mac-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UE4Game-Mac-Shipping">
-				<Option working_dir="/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"/>
+				<Option working_dir="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-Mac-Shipping"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mlb.local/Documents/Unreal\ Projects/FPSGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 UE4Game-Mac-Shipping"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -60933,94 +60933,94 @@
 		<Unit filename="/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/XmlParser/XmlParser.Build.cs">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Challenges/FPSBlackHole.cpp">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Challenges/FPSBlackHole.cpp">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Challenges/FPSBlackHole.h">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Challenges/FPSBlackHole.h">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/FPSGame.Build.cs">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/FPSGame.Build.cs">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/FPSGame.cpp">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/FPSGame.cpp">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/FPSGame.h">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/FPSGame.h">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Private/FPSCharacter.cpp">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Private/FPSCharacter.cpp">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Private/FPSExtractionZone.cpp">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Private/FPSExtractionZone.cpp">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Private/FPSGameMode.cpp">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Private/FPSGameMode.cpp">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Private/FPSHUD.cpp">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Private/FPSHUD.cpp">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Private/FPSObjectiveActor.cpp">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Private/FPSObjectiveActor.cpp">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Private/FPSProjectile.cpp">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Private/FPSProjectile.cpp">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Public/FPSCharacter.h">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Public/FPSCharacter.h">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Public/FPSExtractionZone.h">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Public/FPSExtractionZone.h">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Public/FPSGameMode.h">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Public/FPSGameMode.h">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Public/FPSHUD.h">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Public/FPSHUD.h">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Public/FPSObjectiveActor.h">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Public/FPSObjectiveActor.h">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Source/FPSGame/Public/FPSProjectile.h">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Public/FPSProjectile.h">
 			<Option target="FakeTarget"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/CMakeLists.txt">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-config-engine.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-config-engine.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-config-project.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-config-project.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-csharp-engine.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-csharp-engine.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-csharp-project.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-csharp-project.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-definitions.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-definitions.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-headers-project.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-headers-project.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-headers-ue4.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-headers-ue4.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-includes.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-includes.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-shaders-engine.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-shaders-engine.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-shaders-project.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-shaders-project.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-sources-engine.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-sources-engine.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/Users/mlb.local/Documents/Unreal Projects/FPSGame/Intermediate/ProjectFiles/cmake-sources-project.cmake">
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Intermediate/ProjectFiles/cmake-sources-project.cmake">
 			<Option virtualFolder="CMake Files\Intermediate\ProjectFiles\"/>
 		</Unit>
 	</Project>

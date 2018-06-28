@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/mlb.local/Documents/Unreal Projects/FPSGame"
+CMAKE_SOURCE_DIR = /Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug
 
 # Utility rule file for FPSGameEditor.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = "/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-bui
 include CMakeFiles/FPSGameEditor.dir/progress.make
 
 CMakeFiles/FPSGameEditor:
-	cd "/Users/Shared/Epic Games/UE_4.20" && bash "/Users/Shared/Epic Games/UE_4.20/Engine/Build/BatchFiles/Mac/Build.sh" FPSGameEditor Mac Development "-project=/Users/mlb.local/Documents/Unreal Projects/FPSGame/FPSGame.uproject" -game -progress -buildscw
+	cd "/Users/Shared/Epic Games/UE_4.20" && bash "/Users/Shared/Epic Games/UE_4.20/Engine/Build/BatchFiles/Mac/Build.sh" FPSGameEditor Mac Development -project=/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/FPSGame.uproject -game -progress -buildscw
 
 FPSGameEditor: CMakeFiles/FPSGameEditor
 FPSGameEditor: CMakeFiles/FPSGameEditor.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/FPSGameEditor.dir/clean:
 .PHONY : CMakeFiles/FPSGameEditor.dir/clean
 
 CMakeFiles/FPSGameEditor.dir/depend:
-	cd "/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mlb.local/Documents/Unreal Projects/FPSGame" "/Users/mlb.local/Documents/Unreal Projects/FPSGame" "/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug" "/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug" "/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate /Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate /Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug /Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug /Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FPSGameEditor.dir/depend
 

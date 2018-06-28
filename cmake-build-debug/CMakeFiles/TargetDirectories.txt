@@ -1,33 +1,33 @@
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FakeTarget.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor-IOS.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor-TVOS-Shipping.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor-TVOS-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor-IOS-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor-TVOS.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGame-TVOS.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Game-TVOS-Shipping.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor-Mac-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGame-IOS-Shipping.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor-IOS-Shipping.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGame-TVOS-Shipping.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGame-Mac-Shipping.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGame-IOS.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Game-IOS.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGame-Mac-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Game-IOS-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Game.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Game-IOS-Shipping.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Game-TVOS-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGame-TVOS-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Editor.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGame-IOS-DebugGame.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Game-TVOS.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/FPSGameEditor-Mac-Shipping.dir
-/Users/mlb.local/Documents/Unreal Projects/FPSGame/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FakeTarget.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor-IOS.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor-TVOS-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor-TVOS-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor-IOS-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor-TVOS.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGame-TVOS.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Game-TVOS-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor-Mac-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGame-IOS-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor-IOS-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGame-TVOS-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGame-Mac-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGame-IOS.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Game-IOS.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGame-Mac-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Game-IOS-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Game.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Game-IOS-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Game-TVOS-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGame-TVOS-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Editor.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGame-IOS-DebugGame.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Game-TVOS.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/FPSGameEditor-Mac-Shipping.dir
+/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping.dir
