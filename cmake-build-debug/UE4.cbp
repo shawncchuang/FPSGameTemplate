@@ -60939,6 +60939,12 @@
 		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Challenges/FPSBlackHole.h">
 			<Option target="FakeTarget"/>
 		</Unit>
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Challenges/FPSLaunchPad.cpp">
+			<Option target="FakeTarget"/>
+		</Unit>
+		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Challenges/FPSLaunchPad.h">
+			<Option target="FakeTarget"/>
+		</Unit>
 		<Unit filename="/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/FPSGame.Build.cs">
 			<Option target="FakeTarget"/>
 		</Unit>

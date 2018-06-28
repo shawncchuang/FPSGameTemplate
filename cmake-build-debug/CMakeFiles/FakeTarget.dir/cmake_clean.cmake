@@ -7845,6 +7845,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FakeTarget.dir/Users/Shared/Epic_Games/UE_4.20/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Private/ScreenshotTools.cpp.o"
   "CMakeFiles/FakeTarget.dir/Source/FPSGame/FPSGame.cpp.o"
   "CMakeFiles/FakeTarget.dir/Source/FPSGame/Challenges/FPSBlackHole.cpp.o"
+  "CMakeFiles/FakeTarget.dir/Source/FPSGame/Challenges/FPSLaunchPad.cpp.o"
   "CMakeFiles/FakeTarget.dir/Source/FPSGame/Private/FPSCharacter.cpp.o"
   "CMakeFiles/FakeTarget.dir/Source/FPSGame/Private/FPSExtractionZone.cpp.o"
   "CMakeFiles/FakeTarget.dir/Source/FPSGame/Private/FPSGameMode.cpp.o"
