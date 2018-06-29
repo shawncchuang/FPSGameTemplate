@@ -1,15 +1,11 @@
 {
-	"typescript.tsc.autoDetect": "off",
 	"files.exclude": {
-		"/Users/shawnch/UE4Projects/FPSGame/.git": true,
-		"/Users/shawnch/UE4Projects/FPSGame/.vscode": true,
-		"/Users/shawnch/UE4Projects/FPSGame/Content": true,
-		"/Users/shawnch/UE4Projects/FPSGame/FPSGame.xcworkspace": true,
-		"/Users/shawnch/UE4Projects/FPSGame/Intermediate": true,
-		"/Users/shawnch/UE4Projects/FPSGame/Saved": true
-	},
-	"files.associations": {
-		"__config": "cpp",
-		"__nullptr": "cpp"
+		"/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/.git": true,
+		"/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/.idea": true,
+		"/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/.vscode": true,
+		"/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/Content": true,
+		"/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/Intermediate": true,
+		"/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/Saved": true,
+		"/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/cmake-build-debug": true
 	}
 }

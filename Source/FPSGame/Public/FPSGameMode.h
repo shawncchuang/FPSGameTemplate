@@ -13,12 +13,7 @@ class AFPSGameMode : public AGameModeBase
 protected:
     UPROPERTY(EditDefaultsOnly, Category= "Spectating")
     TSubclassOf<AActor> SpectatingViewpointClass;
-
-<<<<<<< HEAD
-=======
-
-    
->>>>>>> ClionDev
+	
   public:
 	AFPSGameMode();
 

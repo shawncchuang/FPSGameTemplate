@@ -21,23 +21,20 @@ void AFPSGameMode::CompleteMission(APawn *InstigatorPawn)
     if (InstigatorPawn)
     {
         InstigatorPawn->DisableInput(nullptr);
-        
-        AActor* _NewViewTarget = nullptr;
-        
-        
+           
         TArray<AActor*> ReturnedActors;
         UGameplayStatics::GetAllActorsOfClass(this, SpectatingViewpointClass, ReturnedActors);
         
         //change viewpoint if my valid cator found
         if(ReturnedActors.Num() > 0)
         {
-            AActor* _NewViewTarget = ReturnedActors[0];
+            AActor* NewViewTarget = ReturnedActors[0];
             APlayerController* PC = Cast<APlayerController>(InstigatorPawn->GetController());
             
             
             if(PC)
             {
-                PC->SetViewTargetWithBlend(_NewViewTarget, 0.5f , EViewTargetBlendFunction::VTBlend_Cubic);
+                PC->SetViewTargetWithBlend(NewViewTarget, 0.5f , EViewTargetBlendFunction::VTBlend_Cubic);
                 
             }
         }
@@ -55,13 +52,4 @@ void AFPSGameMode::CompleteMission(APawn *InstigatorPawn)
     
     
 }
-void AFPSGameMode::CompleteMission(APawn *InstigatorPawn)
-{
-
-	if (InstigatorPawn)
-	{
-		InstigatorPawn->DisableInput(nullptr);
-	}
-
-	OnMissionCompleted(InstigatorPawn);
-}
+ 
