@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "FPSLaunchPad.generated.h"
 
+class UArrowComponent;
+
 UCLASS()
 class FPSGAME_API AFPSLaunchPad : public AActor
 {
@@ -16,9 +18,7 @@ class FPSGAME_API AFPSLaunchPad : public AActor
 	// Sets default values for this actor's properties
 	AFPSLaunchPad();
 
-  protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+protected:
 
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	class UStaticMeshComponent *MeshComp;
@@ -38,10 +38,6 @@ class FPSGAME_API AFPSLaunchPad : public AActor
 
 	UPROPERTY(EditDefaultsOnly, Category = "LaunchPad")
     class UParticleSystem *ActivateLaunchPadEffect;
-
-  public:
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
 	
 	
