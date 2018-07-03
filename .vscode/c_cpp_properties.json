@@ -4,7 +4,7 @@
             "name": "UnrealEngine",
             "includePath": [
                 "/Users/Shared/Epic Games/UE_4.20/Engine/Source",
-                "/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Private",
+                "/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/Source/FPSGame/Private",
                 "/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime",
                 "/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Engine/Classes",
                 "/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/Engine/Public",
@@ -332,9 +332,9 @@
                 "/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/AudioMixer",
                 "/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/AudioMixer/Public/Components",
                 "/Users/Shared/Epic Games/UE_4.20/Engine/Source/Runtime/AudioMixer/Public/DSP",
-                "/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source",
-                "/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame/Public",
-                "/Users/shawnch/UE4Projects/FPSGame/FPSGameTemplate/Source/FPSGame"
+                "/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/Source",
+                "/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/Source/FPSGame/Public",
+                "/Users/mlb.local/Documents/Unreal Projects/FPSGameTemplate/Source/FPSGame"
             ],
             "intelliSenseMode": "clang-x64",
             "macFrameworkPath": [
@@ -344,7 +344,10 @@
             "defines": [
                 "_DEBUG",
                 "UNICODE"
-            ]
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
