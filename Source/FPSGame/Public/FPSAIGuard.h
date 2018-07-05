@@ -6,16 +6,25 @@
 #include "GameFramework/Character.h"
 #include "FPSAIGuard.generated.h"
 
+UENUM(BlueprintType)
+enum class EAIState : uint8
+{
+	Idle,
+	Suspicious,
+	Alerted
+
+};
+
 UCLASS()
 class FPSGAME_API AFPSAIGuard : public ACharacter
 {
 	GENERATED_BODY()
 
-public:
+  public:
 	// Sets default values for this character's properties
 	AFPSAIGuard();
 
-protected:
+  protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
@@ -35,7 +44,14 @@ protected:
 
 	FTimerHandle TimerHandle_ResetOrientation;
 
-public:
+	EAIState GuardState;
+
+	void SetGuardState(EAIState NewSate);
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "AI")
+	void OnStateChanged(EAIState NewState);
+
+  public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 };
