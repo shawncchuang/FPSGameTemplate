@@ -54,4 +54,25 @@ class FPSGAME_API AFPSAIGuard : public ACharacter
   public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+  protected:
+	/* Let the guard go on patrol */
+	UPROPERTY(EditInstanceOnly, Category = "AI")
+	bool bPatrol;
+
+	/* First of two points to patrol between */
+	UPROPERTY(EditInstanceOnly, Category = "AI", meta = (EditCondition = "bPatrol"))
+	AActor *FirstPatrolPoint;
+
+	/* Second of two points to patrol between */
+	UPROPERTY(EditInstanceOnly, Category = " AI", meta = (EditCondition = "bPatrol"))
+	AActor *SecondPatrolPoint;
+
+	//The current point the actor is either moving to or standing at
+	AActor *CurrentPatrolPoint;
+
+	/*
+	under Navigation System there's a checkbox to allow client side navigation
+	*/
+	void MoveToNextPatrolPoint();
 };
