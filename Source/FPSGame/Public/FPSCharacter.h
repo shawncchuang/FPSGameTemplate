@@ -74,4 +74,7 @@ class AFPSCharacter : public ACharacter
 
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent *GetFirstPersonCameraComponent() const { return CameraComponent; }
+    
+    virtual void Tick(float DeltaTime) override;
+    
 };
