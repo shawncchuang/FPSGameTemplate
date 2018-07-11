@@ -151,5 +151,5 @@ void AFPSAIGuard::MoveToNextPatrolPoint()
 		CurrentPatrolPoint = SecondPatrolPoint;
 	}
     //UAIBlueprintHelperLibrary::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
-   // UNavigationSystem::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
+     //UNavigationSystem::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
 }
