@@ -44,8 +44,13 @@ class FPSGAME_API AFPSAIGuard : public ACharacter
 
 	FTimerHandle TimerHandle_ResetOrientation;
 
+    // this replicated using will synchronize it to all the clients
+    UPROPERTY(ReplicatedUsing=OnRep_GuardState)
 	EAIState GuardState;
 
+    UFUNCTION()
+    void OnRep_GuardState();
+    
 	void SetGuardState(EAIState NewSate);
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "AI")

@@ -22,7 +22,7 @@ AFPSObjectiveActor::AFPSObjectiveActor()
 	SphereComp->SetCollisionResponseToChannel(ECC_Pawn,ECR_Overlap);
 	SphereComp->SetupAttachment(MeshComp);
 
-	
+    SetReplicates(true);
 
 }
 
@@ -53,7 +53,8 @@ void AFPSObjectiveActor::NotifyActorBeginOverlap(AActor * OtherActor)
 	Super::NotifyActorBeginOverlap(OtherActor);
 
 	PlayEffects();
-
+if(Role == ROLE_Authority)
+{
 	AFPSCharacter* MyCharacter = Cast<AFPSCharacter>(OtherActor);
 	if (MyCharacter)
 	{
@@ -61,4 +62,5 @@ void AFPSObjectiveActor::NotifyActorBeginOverlap(AActor * OtherActor)
 
 		Destroy();
 	}
+}
 }

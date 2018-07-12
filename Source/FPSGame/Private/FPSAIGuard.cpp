@@ -5,6 +5,7 @@
 #include "DrawDebugHelpers.h"
 #include "FPSGameMode.h"
 //#include "AI/Navigation/NavigationSystem.h"
+#include "Net/UnrealNetWork.h"
 
 
 // Sets default values
@@ -108,16 +109,27 @@ void AFPSAIGuard::ResetOrientation()
 	}
 }
 
+void AFPSAIGuard::OnRep_GuardState()
+{
+    
+    OnStateChanged(GuardState);
+    
+}
+
+
 void AFPSAIGuard::SetGuardState(EAIState NewState)
 {
 	if (GuardState == NewState)
 	{
 		return;
 	}
-	GuardState = NewState;
+    GuardState = NewState;
+    OnRep_GuardState();
 
-	OnStateChanged(GuardState);
+	
 }
+
+
 
 // Called every frame
 void AFPSAIGuard::Tick(float DeltaTime)
@@ -138,6 +150,8 @@ void AFPSAIGuard::Tick(float DeltaTime)
 	}
 }
 
+
+
 void AFPSAIGuard::MoveToNextPatrolPoint()
 {
 
@@ -153,3 +167,15 @@ void AFPSAIGuard::MoveToNextPatrolPoint()
     //UAIBlueprintHelperLibrary::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
      //UNavigationSystem::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
 }
+
+void AFPSAIGuard::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const
+{
+    // variable replicate to everyone it's connected with
+    Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+    
+    //PRAGMA_DISABLE_DEPRECATION_WARNINGS
+    DOREPLIFETIME( AFPSAIGuard, GuardState );
+    //PRAGMA_ENABLE_DEPRECATION_WARNINGS
+}
+
+

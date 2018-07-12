@@ -57,6 +57,7 @@ class AFPSCharacter : public ACharacter
 	/** Fires a projectile. */
 	void Fire();
     
+    /** Sever Functoin */
     UFUNCTION(Server,Reliable, WithValidation)
     void ServerFire();
 
