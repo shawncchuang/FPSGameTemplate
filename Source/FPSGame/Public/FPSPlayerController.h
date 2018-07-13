@@ -16,5 +16,5 @@ class FPSGAME_API AFPSPlayerController : public APlayerController
 
   public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "PlayerController")
-	void OnMissionComplete(APawn *InstigatorPawn, bool bMissionSucccess);
+	void OnMissionCompleted(APawn *InstigatorPawn, bool bMissionSucccess);
 };
