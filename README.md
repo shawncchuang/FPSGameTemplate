@@ -1,9 +1,15 @@
-# SimpleFPSTemplate
-Simple C++ FPS Template for Unreal Engine 4
+# Stealth Game - Unreal Engine 4 C++ Excersices
 
-Last updated for 4.18
+** Which includes Networking for multiplayer and multiple AI including advanced behavior trees for ranged shooter AI.
 
-# Why create a "simplified" FPS C++ Template?
-The provided C++ template that ships with the engine has several features that someone new to C++ may not be interested in like VR controls and Touch input. This code "bloats" the template to look a lot more complex than neccessary if you are simply looking to start with C++ in UE4. I'm using this project to create tutorials and you can use it in your own way!
+**Created with Unreal Engine 4.20**
 
-This project is licensed under the Unreal Engine 4 EULA.
+![alt text](http://www.tomlooman.com/wp-content/uploads/2017/12/Thumb_MainUE4Course30_header.jpg)
+
+Features
+
+	- Game Objective to Extract to an 'extraction zone'
+	- AI Guard that senses players and noises
+	- First Person Weapon that can distract Guard AI (Shoot Projectiles at wall)
+	- Game loop with 'game over' spectating.
+	- Works fully in multiplayer!
